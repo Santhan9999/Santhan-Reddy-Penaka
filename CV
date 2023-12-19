@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Santhan Reddy Penaka - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        header li {
+            display: inline;
+            margin: 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Santhan Reddy Penaka</span> PhD Scholar & Pilot Leader</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="mailto:santhan.penaka@umu.se">Email</a></li>
+                    <li><a href="https://www.linkedin.com/in/santhan-reddy-penaka/">LinkedIn</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="main">
+            <h1>Objective</h1>
+            <p>Seeking remote project opportunities in the fields of solar energy, energy efficiency in buildings, big data analytics, and machine learning to contribute towards sustainable and innovative solutions in the renewable energy sector.</p>
+
+            <h1>Education</h1>
+            <p>Doctor of Philosophy (PhD) Energy Efficiency, Umeå University, Umeå, Sweden | Nov 2021 – Oct 2025 (Expected)</p>
+            <p>Research Focus: Energy Efficiency in Buildings & Urban Districts using Big Data Analytics and Machine Learning</p>
+            <p>Projects: Interaction between building energy-efficient measures and occupants’ behaviors; AURORAL - Smart Communities</p>
+
+            <!-- Add more sections for Professional Experience, Publications, Skills, Languages, etc. -->
+
+        </section>
+    </div>
+</body>
+</html>
